@@ -1,0 +1,21 @@
+Build a python code, Assume u get temperature and humidity values (generated with random functions to a variable) and write a condition to continuously detect alarm in case of high temperature. 
+
+PYTHON CODE : 
+import random
+temp=random.uniform(10,50)
+humidity=random.uniform(30,60)
+print (‘Temperature =’, temp)
+print (‘Humidity =’,humidity )
+if(temp>38):
+    print ('Temperature is high, Alarm detected')
+else:
+    print('Normal temperature') 
+
+OUTPUT :
+Temperature = 17.86
+Humidity = 50.95
+Normal temperature
+
+Temperature = 42.84
+Humidity = 30.45
+Temperature is high, Alarm detected
